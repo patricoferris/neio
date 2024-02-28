@@ -1,4 +1,4 @@
-let loopback = `Tcp (Eio.Net.Ipaddr.V4.loopback, 8080)
+let loopback = `Tcp (Eio.Net.Ipaddr.V4.loopback, 8787)
 
 let () =
   Eio_main.run @@ fun _ ->
