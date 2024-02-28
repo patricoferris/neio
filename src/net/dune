@@ -1,0 +1,3 @@
+(library
+ (name net)
+ (libraries eio))

@@ -1,0 +1,3 @@
+(executables
+ (names listen connect)
+ (libraries eio_main net_unix))

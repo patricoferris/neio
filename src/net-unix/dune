@@ -1,0 +1,10 @@
+(library
+ (name net_unix)
+ (libraries
+  net
+  eio.unix
+  (select
+   net_unix.ml
+   from
+   (eio_linux -> net_unix.linux.ml)
+   (eio_posix -> net_unix.posix.ml))))
